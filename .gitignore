@@ -1,13 +1,9 @@
 build/
 node_modules/
-deps/librdkafka
 npm-debug.log
 
 docs
 
-deps/*
-!deps/*.gyp
-!deps/windows-install.*
 
 .DS_Store
 
