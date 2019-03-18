@@ -1,5 +1,5 @@
-# configure exec: ./configure --prefix=/Users/alevi1/kafka/headers/node-rdkafka/build/deps --libdir=/Users/alevi1/kafka/headers/node-rdkafka/build/deps --prefix=/Users/alevi1/kafka/headers/node-rdkafka/build/deps --libdir=/Users/alevi1/kafka/headers/node-rdkafka/build/deps
-# On Sun Mar 17 23:16:19 EDT 2019
+# configure exec: ./configure --prefix=/Users/alevi1/kafka/r11/node-rdkafka/build/deps --libdir=/Users/alevi1/kafka/r11/node-rdkafka/build/deps --prefix=/Users/alevi1/kafka/r11/node-rdkafka/build/deps --libdir=/Users/alevi1/kafka/r11/node-rdkafka/build/deps
+# On Mon Mar 18 14:40:16 EDT 2019
 DBG: ccenv: WITH_CC:  --version failed: mklove/modules/configure.base: line 1204: --version: command not found
 DBG: Check ccenv (WITH_CC, action cont (originally cont)) failed: command ' --version' failed:
 mklove/modules/configure.base: line 1204: --version: command not found
@@ -24,56 +24,56 @@ usage: install [-bCcpSsv] [-B suffix] [-f flags] [-g group] [-m mode]
        install [-bCcpSsv] [-B suffix] [-f flags] [-g group] [-m mode]
                [-o owner] file1 ... fileN directory
        install -d [-v] [-g group] [-m mode] [-o owner] directory ...
-DBG: Compile check gnulib (WITH_GNULD): gcc  -I/usr/local/opt/openssl/include -gstrict-dwarf -O2 -fPIC -Wall -Werror _mkltmpVXvUEe.c -o _mkltmpVXvUEe.c.o  -L/usr/local/opt/openssl/lib -L/Users/alevi1/kafka/headers/node-rdkafka/build/deps -shared -Wl,-soname,mkltest.0
-DBG: compile check for gnulib (WITH_GNULD) failed: gcc  -I/usr/local/opt/openssl/include -gstrict-dwarf -O2 -fPIC -Wall -Werror _mkltmpVXvUEe.c -o _mkltmpVXvUEe.c.o  -L/usr/local/opt/openssl/lib -L/Users/alevi1/kafka/headers/node-rdkafka/build/deps -shared -Wl,-soname,mkltest.0: ld: unknown option: -soname
+DBG: Compile check gnulib (WITH_GNULD): gcc  -I/usr/local/opt/openssl/include -gstrict-dwarf -O2 -fPIC -Wall -Werror _mkltmpp2jYRx.c -o _mkltmpp2jYRx.c.o  -L/usr/local/opt/openssl/lib -L/Users/alevi1/kafka/r11/node-rdkafka/build/deps -shared -Wl,-soname,mkltest.0
+DBG: compile check for gnulib (WITH_GNULD) failed: gcc  -I/usr/local/opt/openssl/include -gstrict-dwarf -O2 -fPIC -Wall -Werror _mkltmpp2jYRx.c -o _mkltmpp2jYRx.c.o  -L/usr/local/opt/openssl/lib -L/Users/alevi1/kafka/r11/node-rdkafka/build/deps -shared -Wl,-soname,mkltest.0: ld: unknown option: -soname
 clang: error: linker command failed with exit code 1 (use -v to see invocation)
 DBG: Check gnulib (WITH_GNULD, action cont (originally cont)) failed: compile check failed:
 CC: CC
 flags: -shared -Wl,-soname,mkltest.0
-gcc  -I/usr/local/opt/openssl/include -gstrict-dwarf -O2 -fPIC -Wall -Werror _mkltmpVXvUEe.c -o _mkltmpVXvUEe.c.o  -L/usr/local/opt/openssl/lib -L/Users/alevi1/kafka/headers/node-rdkafka/build/deps -shared -Wl,-soname,mkltest.0:
+gcc  -I/usr/local/opt/openssl/include -gstrict-dwarf -O2 -fPIC -Wall -Werror _mkltmpp2jYRx.c -o _mkltmpp2jYRx.c.o  -L/usr/local/opt/openssl/lib -L/Users/alevi1/kafka/r11/node-rdkafka/build/deps -shared -Wl,-soname,mkltest.0:
 ld: unknown option: -soname
 clang: error: linker command failed with exit code 1 (use -v to see invocation)
 source: 
-DBG: Compile check ldsflagvs (): gcc  -I/usr/local/opt/openssl/include -gstrict-dwarf -O2 -fPIC -Wall -Werror _mkltmpBs5D3a.c -o _mkltmpBs5D3a.c.o  -L/usr/local/opt/openssl/lib -L/Users/alevi1/kafka/headers/node-rdkafka/build/deps -shared -Wl,--version-script=_mkltmp9GrkYK
-DBG: compile check for ldsflagvs () failed: gcc  -I/usr/local/opt/openssl/include -gstrict-dwarf -O2 -fPIC -Wall -Werror _mkltmpBs5D3a.c -o _mkltmpBs5D3a.c.o  -L/usr/local/opt/openssl/lib -L/Users/alevi1/kafka/headers/node-rdkafka/build/deps -shared -Wl,--version-script=_mkltmp9GrkYK: ld: unknown option: --version-script=_mkltmp9GrkYK
+DBG: Compile check ldsflagvs (): gcc  -I/usr/local/opt/openssl/include -gstrict-dwarf -O2 -fPIC -Wall -Werror _mkltmprCBWtw.c -o _mkltmprCBWtw.c.o  -L/usr/local/opt/openssl/lib -L/Users/alevi1/kafka/r11/node-rdkafka/build/deps -shared -Wl,--version-script=_mkltmpTGZAnK
+DBG: compile check for ldsflagvs () failed: gcc  -I/usr/local/opt/openssl/include -gstrict-dwarf -O2 -fPIC -Wall -Werror _mkltmprCBWtw.c -o _mkltmprCBWtw.c.o  -L/usr/local/opt/openssl/lib -L/Users/alevi1/kafka/r11/node-rdkafka/build/deps -shared -Wl,--version-script=_mkltmpTGZAnK: ld: unknown option: --version-script=_mkltmpTGZAnK
 clang: error: linker command failed with exit code 1 (use -v to see invocation)
 DBG: Check ldsflagvs (, action cont (originally cont)) failed: compile check failed:
 CC: CC
-flags: -shared -Wl,--version-script=_mkltmp9GrkYK
-gcc  -I/usr/local/opt/openssl/include -gstrict-dwarf -O2 -fPIC -Wall -Werror _mkltmpBs5D3a.c -o _mkltmpBs5D3a.c.o  -L/usr/local/opt/openssl/lib -L/Users/alevi1/kafka/headers/node-rdkafka/build/deps -shared -Wl,--version-script=_mkltmp9GrkYK:
-ld: unknown option: --version-script=_mkltmp9GrkYK
+flags: -shared -Wl,--version-script=_mkltmpTGZAnK
+gcc  -I/usr/local/opt/openssl/include -gstrict-dwarf -O2 -fPIC -Wall -Werror _mkltmprCBWtw.c -o _mkltmprCBWtw.c.o  -L/usr/local/opt/openssl/lib -L/Users/alevi1/kafka/r11/node-rdkafka/build/deps -shared -Wl,--version-script=_mkltmpTGZAnK:
+ld: unknown option: --version-script=_mkltmpTGZAnK
 clang: error: linker command failed with exit code 1 (use -v to see invocation)
 source: 
-DBG: Compile check ldsflagm (): gcc  -I/usr/local/opt/openssl/include -gstrict-dwarf -O2 -fPIC -Wall -Werror _mkltmpyyU77S.c -o _mkltmpyyU77S.c.o  -L/usr/local/opt/openssl/lib -L/Users/alevi1/kafka/headers/node-rdkafka/build/deps -shared -Wl,-M_mkltmp9GrkYK
-DBG: compile check for ldsflagm () failed: gcc  -I/usr/local/opt/openssl/include -gstrict-dwarf -O2 -fPIC -Wall -Werror _mkltmpyyU77S.c -o _mkltmpyyU77S.c.o  -L/usr/local/opt/openssl/lib -L/Users/alevi1/kafka/headers/node-rdkafka/build/deps -shared -Wl,-M_mkltmp9GrkYK: ld: unknown option: -M_mkltmp9GrkYK
+DBG: Compile check ldsflagm (): gcc  -I/usr/local/opt/openssl/include -gstrict-dwarf -O2 -fPIC -Wall -Werror _mkltmpV4Qwms.c -o _mkltmpV4Qwms.c.o  -L/usr/local/opt/openssl/lib -L/Users/alevi1/kafka/r11/node-rdkafka/build/deps -shared -Wl,-M_mkltmpTGZAnK
+DBG: compile check for ldsflagm () failed: gcc  -I/usr/local/opt/openssl/include -gstrict-dwarf -O2 -fPIC -Wall -Werror _mkltmpV4Qwms.c -o _mkltmpV4Qwms.c.o  -L/usr/local/opt/openssl/lib -L/Users/alevi1/kafka/r11/node-rdkafka/build/deps -shared -Wl,-M_mkltmpTGZAnK: ld: unknown option: -M_mkltmpTGZAnK
 clang: error: linker command failed with exit code 1 (use -v to see invocation)
 DBG: Check ldsflagm (, action ignore (originally ignore)) failed: compile check failed:
 CC: CC
-flags: -shared -Wl,-M_mkltmp9GrkYK
-gcc  -I/usr/local/opt/openssl/include -gstrict-dwarf -O2 -fPIC -Wall -Werror _mkltmpyyU77S.c -o _mkltmpyyU77S.c.o  -L/usr/local/opt/openssl/lib -L/Users/alevi1/kafka/headers/node-rdkafka/build/deps -shared -Wl,-M_mkltmp9GrkYK:
-ld: unknown option: -M_mkltmp9GrkYK
+flags: -shared -Wl,-M_mkltmpTGZAnK
+gcc  -I/usr/local/opt/openssl/include -gstrict-dwarf -O2 -fPIC -Wall -Werror _mkltmpV4Qwms.c -o _mkltmpV4Qwms.c.o  -L/usr/local/opt/openssl/lib -L/Users/alevi1/kafka/r11/node-rdkafka/build/deps -shared -Wl,-M_mkltmpTGZAnK:
+ld: unknown option: -M_mkltmpTGZAnK
 clang: error: linker command failed with exit code 1 (use -v to see invocation)
 source: 
-DBG: Compile check librt (): gcc  -I/usr/local/opt/openssl/include -gstrict-dwarf -O2 -fPIC -Wall -Wsign-compare -Wfloat-equal -Wpointer-arith -Wcast-align -Wall -Werror _mkltmpKbAbPp.c -o _mkltmpKbAbPp.c.o  -L/usr/local/opt/openssl/lib -L/Users/alevi1/kafka/headers/node-rdkafka/build/deps -lrt
-DBG: compile check for librt () failed: gcc  -I/usr/local/opt/openssl/include -gstrict-dwarf -O2 -fPIC -Wall -Wsign-compare -Wfloat-equal -Wpointer-arith -Wcast-align -Wall -Werror _mkltmpKbAbPp.c -o _mkltmpKbAbPp.c.o  -L/usr/local/opt/openssl/lib -L/Users/alevi1/kafka/headers/node-rdkafka/build/deps -lrt: ld: library not found for -lrt
+DBG: Compile check librt (): gcc  -I/usr/local/opt/openssl/include -gstrict-dwarf -O2 -fPIC -Wall -Wsign-compare -Wfloat-equal -Wpointer-arith -Wcast-align -Wall -Werror _mkltmp74ii1z.c -o _mkltmp74ii1z.c.o  -L/usr/local/opt/openssl/lib -L/Users/alevi1/kafka/r11/node-rdkafka/build/deps -lrt
+DBG: compile check for librt () failed: gcc  -I/usr/local/opt/openssl/include -gstrict-dwarf -O2 -fPIC -Wall -Wsign-compare -Wfloat-equal -Wpointer-arith -Wcast-align -Wall -Werror _mkltmp74ii1z.c -o _mkltmp74ii1z.c.o  -L/usr/local/opt/openssl/lib -L/Users/alevi1/kafka/r11/node-rdkafka/build/deps -lrt: ld: library not found for -lrt
 clang: error: linker command failed with exit code 1 (use -v to see invocation)
 DBG: Check librt (, action cont (originally cont)) failed: compile check failed:
 CC: CC
 flags: -lrt
-gcc  -I/usr/local/opt/openssl/include -gstrict-dwarf -O2 -fPIC -Wall -Wsign-compare -Wfloat-equal -Wpointer-arith -Wcast-align -Wall -Werror _mkltmpKbAbPp.c -o _mkltmpKbAbPp.c.o  -L/usr/local/opt/openssl/lib -L/Users/alevi1/kafka/headers/node-rdkafka/build/deps -lrt:
+gcc  -I/usr/local/opt/openssl/include -gstrict-dwarf -O2 -fPIC -Wall -Wsign-compare -Wfloat-equal -Wpointer-arith -Wcast-align -Wall -Werror _mkltmp74ii1z.c -o _mkltmp74ii1z.c.o  -L/usr/local/opt/openssl/lib -L/Users/alevi1/kafka/r11/node-rdkafka/build/deps -lrt:
 ld: library not found for -lrt
 clang: error: linker command failed with exit code 1 (use -v to see invocation)
 source: 
-DBG: Compile check c11threads (WITH_C11THREADS): gcc  -I/usr/local/opt/openssl/include -gstrict-dwarf -O2 -fPIC -Wall -Wsign-compare -Wfloat-equal -Wpointer-arith -Wcast-align -Wall -Werror _mkltmpyEnrqx.c -o _mkltmpyEnrqx.c.o  -L/usr/local/opt/openssl/lib -L/Users/alevi1/kafka/headers/node-rdkafka/build/deps 
-DBG: compile check for c11threads (WITH_C11THREADS) failed: gcc  -I/usr/local/opt/openssl/include -gstrict-dwarf -O2 -fPIC -Wall -Wsign-compare -Wfloat-equal -Wpointer-arith -Wcast-align -Wall -Werror _mkltmpyEnrqx.c -o _mkltmpyEnrqx.c.o  -L/usr/local/opt/openssl/lib -L/Users/alevi1/kafka/headers/node-rdkafka/build/deps : _mkltmpyEnrqx.c:2:10: fatal error: 'threads.h' file not found
+DBG: Compile check c11threads (WITH_C11THREADS): gcc  -I/usr/local/opt/openssl/include -gstrict-dwarf -O2 -fPIC -Wall -Wsign-compare -Wfloat-equal -Wpointer-arith -Wcast-align -Wall -Werror _mkltmpxJhfHz.c -o _mkltmpxJhfHz.c.o  -L/usr/local/opt/openssl/lib -L/Users/alevi1/kafka/r11/node-rdkafka/build/deps 
+DBG: compile check for c11threads (WITH_C11THREADS) failed: gcc  -I/usr/local/opt/openssl/include -gstrict-dwarf -O2 -fPIC -Wall -Wsign-compare -Wfloat-equal -Wpointer-arith -Wcast-align -Wall -Werror _mkltmpxJhfHz.c -o _mkltmpxJhfHz.c.o  -L/usr/local/opt/openssl/lib -L/Users/alevi1/kafka/r11/node-rdkafka/build/deps : _mkltmpxJhfHz.c:2:10: fatal error: 'threads.h' file not found
 #include <threads.h>
          ^
 1 error generated.
 DBG: Check c11threads (WITH_C11THREADS, action disable (originally disable)) failed: compile check failed:
 CC: CC
 flags: 
-gcc  -I/usr/local/opt/openssl/include -gstrict-dwarf -O2 -fPIC -Wall -Wsign-compare -Wfloat-equal -Wpointer-arith -Wcast-align -Wall -Werror _mkltmpyEnrqx.c -o _mkltmpyEnrqx.c.o  -L/usr/local/opt/openssl/lib -L/Users/alevi1/kafka/headers/node-rdkafka/build/deps :
-_mkltmpyEnrqx.c:2:10: fatal error: 'threads.h' file not found
+gcc  -I/usr/local/opt/openssl/include -gstrict-dwarf -O2 -fPIC -Wall -Wsign-compare -Wfloat-equal -Wpointer-arith -Wcast-align -Wall -Werror _mkltmpxJhfHz.c -o _mkltmpxJhfHz.c.o  -L/usr/local/opt/openssl/lib -L/Users/alevi1/kafka/r11/node-rdkafka/build/deps :
+_mkltmpxJhfHz.c:2:10: fatal error: 'threads.h' file not found
 #include <threads.h>
          ^
 1 error generated.
@@ -94,16 +94,16 @@ void foo (void) {
     }
 }
 
-DBG: Compile check libzstd (WITH_ZSTD): gcc  -I/usr/local/opt/openssl/include -gstrict-dwarf -O2 -fPIC -Wall -Wsign-compare -Wfloat-equal -Wpointer-arith -Wcast-align -Wall -Werror _mkltmpRJrmYs.c -o _mkltmpRJrmYs.c.o  -L/usr/local/opt/openssl/lib -L/Users/alevi1/kafka/headers/node-rdkafka/build/deps -lzstd
-DBG: compile check for libzstd (WITH_ZSTD) failed: gcc  -I/usr/local/opt/openssl/include -gstrict-dwarf -O2 -fPIC -Wall -Wsign-compare -Wfloat-equal -Wpointer-arith -Wcast-align -Wall -Werror _mkltmpRJrmYs.c -o _mkltmpRJrmYs.c.o  -L/usr/local/opt/openssl/lib -L/Users/alevi1/kafka/headers/node-rdkafka/build/deps -lzstd: _mkltmpRJrmYs.c:2:10: fatal error: 'zstd.h' file not found
+DBG: Compile check libzstd (WITH_ZSTD): gcc  -I/usr/local/opt/openssl/include -gstrict-dwarf -O2 -fPIC -Wall -Wsign-compare -Wfloat-equal -Wpointer-arith -Wcast-align -Wall -Werror _mkltmp3UCCrf.c -o _mkltmp3UCCrf.c.o  -L/usr/local/opt/openssl/lib -L/Users/alevi1/kafka/r11/node-rdkafka/build/deps -lzstd
+DBG: compile check for libzstd (WITH_ZSTD) failed: gcc  -I/usr/local/opt/openssl/include -gstrict-dwarf -O2 -fPIC -Wall -Wsign-compare -Wfloat-equal -Wpointer-arith -Wcast-align -Wall -Werror _mkltmp3UCCrf.c -o _mkltmp3UCCrf.c.o  -L/usr/local/opt/openssl/lib -L/Users/alevi1/kafka/r11/node-rdkafka/build/deps -lzstd: _mkltmp3UCCrf.c:2:10: fatal error: 'zstd.h' file not found
 #include <zstd.h>
          ^
 1 error generated.
 DBG: Check libzstd (WITH_ZSTD, action disable (originally disable)) failed: compile check failed:
 CC: CC
 flags: -lzstd
-gcc  -I/usr/local/opt/openssl/include -gstrict-dwarf -O2 -fPIC -Wall -Wsign-compare -Wfloat-equal -Wpointer-arith -Wcast-align -Wall -Werror _mkltmpRJrmYs.c -o _mkltmpRJrmYs.c.o  -L/usr/local/opt/openssl/lib -L/Users/alevi1/kafka/headers/node-rdkafka/build/deps -lzstd:
-_mkltmpRJrmYs.c:2:10: fatal error: 'zstd.h' file not found
+gcc  -I/usr/local/opt/openssl/include -gstrict-dwarf -O2 -fPIC -Wall -Wsign-compare -Wfloat-equal -Wpointer-arith -Wcast-align -Wall -Werror _mkltmp3UCCrf.c -o _mkltmp3UCCrf.c.o  -L/usr/local/opt/openssl/lib -L/Users/alevi1/kafka/r11/node-rdkafka/build/deps -lzstd:
+_mkltmp3UCCrf.c:2:10: fatal error: 'zstd.h' file not found
 #include <zstd.h>
          ^
 1 error generated.
@@ -115,36 +115,36 @@ void foo (void) {
      ZSTD_getFrameContentSize(NULL, 0);
 }
 
-DBG: Compile check liblz4 (WITH_LZ4_EXT): gcc  -I/usr/local/opt/openssl/include -gstrict-dwarf -O2 -fPIC -Wall -Wsign-compare -Wfloat-equal -Wpointer-arith -Wcast-align -Wall -Werror _mkltmp0DauZt.c -o _mkltmp0DauZt.c.o  -L/usr/local/opt/openssl/lib -L/Users/alevi1/kafka/headers/node-rdkafka/build/deps -llz4
-DBG: compile check for liblz4 (WITH_LZ4_EXT) failed: gcc  -I/usr/local/opt/openssl/include -gstrict-dwarf -O2 -fPIC -Wall -Wsign-compare -Wfloat-equal -Wpointer-arith -Wcast-align -Wall -Werror _mkltmp0DauZt.c -o _mkltmp0DauZt.c.o  -L/usr/local/opt/openssl/lib -L/Users/alevi1/kafka/headers/node-rdkafka/build/deps -llz4: _mkltmp0DauZt.c:1:10: fatal error: 'lz4frame.h' file not found
+DBG: Compile check liblz4 (WITH_LZ4_EXT): gcc  -I/usr/local/opt/openssl/include -gstrict-dwarf -O2 -fPIC -Wall -Wsign-compare -Wfloat-equal -Wpointer-arith -Wcast-align -Wall -Werror _mkltmpT4iUcR.c -o _mkltmpT4iUcR.c.o  -L/usr/local/opt/openssl/lib -L/Users/alevi1/kafka/r11/node-rdkafka/build/deps -llz4
+DBG: compile check for liblz4 (WITH_LZ4_EXT) failed: gcc  -I/usr/local/opt/openssl/include -gstrict-dwarf -O2 -fPIC -Wall -Wsign-compare -Wfloat-equal -Wpointer-arith -Wcast-align -Wall -Werror _mkltmpT4iUcR.c -o _mkltmpT4iUcR.c.o  -L/usr/local/opt/openssl/lib -L/Users/alevi1/kafka/r11/node-rdkafka/build/deps -llz4: _mkltmpT4iUcR.c:1:10: fatal error: 'lz4frame.h' file not found
 #include <lz4frame.h>
          ^
 1 error generated.
 DBG: Check liblz4 (WITH_LZ4_EXT, action disable (originally disable)) failed: compile check failed:
 CC: CC
 flags: -llz4
-gcc  -I/usr/local/opt/openssl/include -gstrict-dwarf -O2 -fPIC -Wall -Wsign-compare -Wfloat-equal -Wpointer-arith -Wcast-align -Wall -Werror _mkltmp0DauZt.c -o _mkltmp0DauZt.c.o  -L/usr/local/opt/openssl/lib -L/Users/alevi1/kafka/headers/node-rdkafka/build/deps -llz4:
-_mkltmp0DauZt.c:1:10: fatal error: 'lz4frame.h' file not found
+gcc  -I/usr/local/opt/openssl/include -gstrict-dwarf -O2 -fPIC -Wall -Wsign-compare -Wfloat-equal -Wpointer-arith -Wcast-align -Wall -Werror _mkltmpT4iUcR.c -o _mkltmpT4iUcR.c.o  -L/usr/local/opt/openssl/lib -L/Users/alevi1/kafka/r11/node-rdkafka/build/deps -llz4:
+_mkltmpT4iUcR.c:1:10: fatal error: 'lz4frame.h' file not found
 #include <lz4frame.h>
          ^
 1 error generated.
 source: #include <lz4frame.h>
-DBG: Compile check rapidjson (WITH_RAPIDJSON): g++  -I/usr/local/opt/openssl/include -gstrict-dwarf -O2 -fPIC -Wall -Wsign-compare -Wfloat-equal -Wpointer-arith -Wcast-align -Wall -Werror _mkltmp1GgJJW.cpp -o _mkltmp1GgJJW.cpp.o  -L/usr/local/opt/openssl/lib -L/Users/alevi1/kafka/headers/node-rdkafka/build/deps 
-DBG: compile check for rapidjson (WITH_RAPIDJSON) failed: g++  -I/usr/local/opt/openssl/include -gstrict-dwarf -O2 -fPIC -Wall -Wsign-compare -Wfloat-equal -Wpointer-arith -Wcast-align -Wall -Werror _mkltmp1GgJJW.cpp -o _mkltmp1GgJJW.cpp.o  -L/usr/local/opt/openssl/lib -L/Users/alevi1/kafka/headers/node-rdkafka/build/deps : _mkltmp1GgJJW.cpp:1:10: fatal error: 'rapidjson/schema.h' file not found
+DBG: Compile check rapidjson (WITH_RAPIDJSON): g++  -I/usr/local/opt/openssl/include -gstrict-dwarf -O2 -fPIC -Wall -Wsign-compare -Wfloat-equal -Wpointer-arith -Wcast-align -Wall -Werror _mkltmpc2YZoX.cpp -o _mkltmpc2YZoX.cpp.o  -L/usr/local/opt/openssl/lib -L/Users/alevi1/kafka/r11/node-rdkafka/build/deps 
+DBG: compile check for rapidjson (WITH_RAPIDJSON) failed: g++  -I/usr/local/opt/openssl/include -gstrict-dwarf -O2 -fPIC -Wall -Wsign-compare -Wfloat-equal -Wpointer-arith -Wcast-align -Wall -Werror _mkltmpc2YZoX.cpp -o _mkltmpc2YZoX.cpp.o  -L/usr/local/opt/openssl/lib -L/Users/alevi1/kafka/r11/node-rdkafka/build/deps : _mkltmpc2YZoX.cpp:1:10: fatal error: 'rapidjson/schema.h' file not found
 #include <rapidjson/schema.h>
          ^
 1 error generated.
 DBG: Check rapidjson (WITH_RAPIDJSON, action disable (originally disable)) failed: compile check failed:
 CC: CXX
 flags: 
-g++  -I/usr/local/opt/openssl/include -gstrict-dwarf -O2 -fPIC -Wall -Wsign-compare -Wfloat-equal -Wpointer-arith -Wcast-align -Wall -Werror _mkltmp1GgJJW.cpp -o _mkltmp1GgJJW.cpp.o  -L/usr/local/opt/openssl/lib -L/Users/alevi1/kafka/headers/node-rdkafka/build/deps :
-_mkltmp1GgJJW.cpp:1:10: fatal error: 'rapidjson/schema.h' file not found
+g++  -I/usr/local/opt/openssl/include -gstrict-dwarf -O2 -fPIC -Wall -Wsign-compare -Wfloat-equal -Wpointer-arith -Wcast-align -Wall -Werror _mkltmpc2YZoX.cpp -o _mkltmpc2YZoX.cpp.o  -L/usr/local/opt/openssl/lib -L/Users/alevi1/kafka/r11/node-rdkafka/build/deps :
+_mkltmpc2YZoX.cpp:1:10: fatal error: 'rapidjson/schema.h' file not found
 #include <rapidjson/schema.h>
          ^
 1 error generated.
 source: #include <rapidjson/schema.h>
-DBG: Compile check pthread_setname_gnu (HAVE_PTHREAD_SETNAME_GNU): gcc  -I/usr/local/opt/openssl/include -gstrict-dwarf -O2 -fPIC -Wall -Wsign-compare -Wfloat-equal -Wpointer-arith -Wcast-align -Wall -Werror _mkltmp8LrOv6.c -o _mkltmp8LrOv6.c.o  -L/usr/local/opt/openssl/lib -L/Users/alevi1/kafka/headers/node-rdkafka/build/deps -D_GNU_SOURCE -lpthread
-DBG: compile check for pthread_setname_gnu (HAVE_PTHREAD_SETNAME_GNU) failed: gcc  -I/usr/local/opt/openssl/include -gstrict-dwarf -O2 -fPIC -Wall -Wsign-compare -Wfloat-equal -Wpointer-arith -Wcast-align -Wall -Werror _mkltmp8LrOv6.c -o _mkltmp8LrOv6.c.o  -L/usr/local/opt/openssl/lib -L/Users/alevi1/kafka/headers/node-rdkafka/build/deps -D_GNU_SOURCE -lpthread: _mkltmp8LrOv6.c:5:38: error: too many arguments to function call, expected 1, have 2
+DBG: Compile check pthread_setname_gnu (HAVE_PTHREAD_SETNAME_GNU): gcc  -I/usr/local/opt/openssl/include -gstrict-dwarf -O2 -fPIC -Wall -Wsign-compare -Wfloat-equal -Wpointer-arith -Wcast-align -Wall -Werror _mkltmp43OTVo.c -o _mkltmp43OTVo.c.o  -L/usr/local/opt/openssl/lib -L/Users/alevi1/kafka/r11/node-rdkafka/build/deps -D_GNU_SOURCE -lpthread
+DBG: compile check for pthread_setname_gnu (HAVE_PTHREAD_SETNAME_GNU) failed: gcc  -I/usr/local/opt/openssl/include -gstrict-dwarf -O2 -fPIC -Wall -Wsign-compare -Wfloat-equal -Wpointer-arith -Wcast-align -Wall -Werror _mkltmp43OTVo.c -o _mkltmp43OTVo.c.o  -L/usr/local/opt/openssl/lib -L/Users/alevi1/kafka/r11/node-rdkafka/build/deps -D_GNU_SOURCE -lpthread: _mkltmp43OTVo.c:5:38: error: too many arguments to function call, expected 1, have 2
   pthread_setname_np(pthread_self(), "abc");
   ~~~~~~~~~~~~~~~~~~                 ^~~~~
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/usr/include/pthread.h:473:1: note: 'pthread_setname_np' declared here
@@ -163,8 +163,8 @@ __AVAILABILITY_INTERNAL__MAC_10_6
 DBG: Check pthread_setname_gnu (HAVE_PTHREAD_SETNAME_GNU, action disable (originally disable)) failed: compile check failed:
 CC: CC
 flags: -D_GNU_SOURCE -lpthread
-gcc  -I/usr/local/opt/openssl/include -gstrict-dwarf -O2 -fPIC -Wall -Wsign-compare -Wfloat-equal -Wpointer-arith -Wcast-align -Wall -Werror _mkltmp8LrOv6.c -o _mkltmp8LrOv6.c.o  -L/usr/local/opt/openssl/lib -L/Users/alevi1/kafka/headers/node-rdkafka/build/deps -D_GNU_SOURCE -lpthread:
-_mkltmp8LrOv6.c:5:38: error: too many arguments to function call, expected 1, have 2
+gcc  -I/usr/local/opt/openssl/include -gstrict-dwarf -O2 -fPIC -Wall -Wsign-compare -Wfloat-equal -Wpointer-arith -Wcast-align -Wall -Werror _mkltmp43OTVo.c -o _mkltmp43OTVo.c.o  -L/usr/local/opt/openssl/lib -L/Users/alevi1/kafka/r11/node-rdkafka/build/deps -D_GNU_SOURCE -lpthread:
+_mkltmp43OTVo.c:5:38: error: too many arguments to function call, expected 1, have 2
   pthread_setname_np(pthread_self(), "abc");
   ~~~~~~~~~~~~~~~~~~                 ^~~~~
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/usr/include/pthread.h:473:1: note: 'pthread_setname_np' declared here

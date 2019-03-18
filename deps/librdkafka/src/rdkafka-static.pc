@@ -1,6 +1,6 @@
-prefix=/Users/alevi1/kafka/headers/node-rdkafka/build/deps
-libdir=/Users/alevi1/kafka/headers/node-rdkafka/build/deps
-includedir=/Users/alevi1/kafka/headers/node-rdkafka/build/deps/include
+prefix=/Users/alevi1/kafka/r11/node-rdkafka/build/deps
+libdir=/Users/alevi1/kafka/r11/node-rdkafka/build/deps
+includedir=/Users/alevi1/kafka/r11/node-rdkafka/build/deps/include
 
 Name: librdkafka-static
 Description: The Apache Kafka C/C++ library (static)
