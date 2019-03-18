@@ -1,0 +1,9 @@
+prefix=/Users/alevi1/kafka/headers/node-rdkafka/build/deps
+libdir=/Users/alevi1/kafka/headers/node-rdkafka/build/deps
+includedir=/Users/alevi1/kafka/headers/node-rdkafka/build/deps/include
+
+Name: librdkafka-static
+Description: The Apache Kafka C/C++ library (static)
+Version: 1.0.0
+Cflags: -I${includedir}
+Libs: -L${libdir} ${libdir}/librdkafka.a -lsasl2 -lssl -lm -lcrypto -lz -ldl -lpthread

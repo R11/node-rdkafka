@@ -1,0 +1,10 @@
+prefix=/Users/alevi1/kafka/headers/node-rdkafka/build/deps
+libdir=/Users/alevi1/kafka/headers/node-rdkafka/build/deps
+includedir=/Users/alevi1/kafka/headers/node-rdkafka/build/deps/include
+
+Name: librdkafka++
+Description: The Apache Kafka C/C++ library
+Version: 1.0.0
+Cflags: -I${includedir}
+Libs: -L${libdir} -lrdkafka++
+Libs.private: -L../src -lrdkafka -lstdc++
